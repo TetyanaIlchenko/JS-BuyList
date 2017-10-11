@@ -1,3 +1,507 @@
-h1 {
-    color: red;
+.bl-background {
+    background: lightgrey;
+    padding: 20px;
+
+
+    height: 300px;
+    width: 1300px;
+    background-size: cover;
+    position:fixed;
+}
+
+.bl-bought {
+    background: white;
+    margin-bottom: 10px;
+    float: right;
+    height: 280px;
+    width: 350px;
+    background-size: cover;
+}
+
+.bl-title1{
+    text-align:center;
+    font-family:"Courier New";
+    font-size:30px;
+
+    margin-top:20px;
+
+
+}
+.bl-title2{
+    text-align:center;
+    font-family:"Courier New";
+    font-size:30px;
+    margin-top:20px;
+
+}
+.left{
+    position:relative;
+    width:347px;
+    margin-top:20px;
+    height:70px;
+    float:left;
+    border-style: ridge;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+.product1{
+    position:absolute;
+
+    width:95px;
+    height: 35px;
+    top:15px;
+    left:10px;
+    background-color:aliceblue;
+
+}
+.tomato{
+    float:left;
+    font-family:"Courier New";
+    font-size: 15px;
+    margin-top:5px;
+}
+.cookies{
+    float:left;
+    font-family:"Courier New";
+    margin-top:5px;
+}
+.cheese{
+    float:left;
+    font-family:"Courier New";
+    margin-top:5px;
+}
+
+.product2{
+    position:absolute;
+    width:95px;
+    height: 35px;
+    top:15px;
+    left:120px;
+    background-color:aliceblue;
+
+}
+
+.product3{
+    position:absolute;
+    width:95px;
+    height: 35px;
+    top:15px;
+    left:230px;
+    background-color:aliceblue;
+}
+
+.bought{
+    position:relative;
+    width:347px;
+    margin-top:20px;
+    height:70px;
+    float:left;
+    border-style: ridge;
+    border-right-width: 0;
+    border-left-width: 0;
+
+}
+
+
+
+.number1{
+    border-radius:100px;
+    float:right;
+    width:15px;
+    margin-top:5px;
+    margin-right:5px;
+    text-align: center;
+    background-color: #04a613;
+}
+
+.number2{
+    border-radius:100px;
+    float:right;
+    width:15px;
+    margin-top:5px;
+    margin-right:5px;
+    text-align: center;
+    background-color: #04a613;
+}
+.number3{
+    border-radius:100px;
+    float:right;
+    width:15px;
+    margin-top:5px;
+    margin-right:5px;
+    text-align: center;
+    background-color: #04a613;
+}
+
+
+
+
+.bl-list {
+    background: white;
+    float: left;
+    height:280px;
+    width: 900px;
+    background-size: cover;
+}
+
+/*Кнопки*/
+.bl-label {
+    background: #cdcbcb;
+}
+.bl-plus {
+    background: #04a613;
+}
+.name{
+    width : 760px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+    background-size: cover;
+
+}
+
+.add{
+
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-top:12px;
+    margin-right:10px;
+    background-size: cover;
+    background-color: blue;
+    font-family:"Courier New";
+    font-size: medium;
+
+
+}
+.addTitle{
+    color: white;
+    font-family:"Courier New";
+
+
+}
+.bl-product{
+    position: absolute ;
+    left: 200px ;
+    top: 150px;
+}
+.row1{
+    position:relative;
+    width:893px;
+    height:50px;
+    float:left;
+
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-style: ridge;
+
+}
+.title1{
+    padding:15px;
+    float:left;
+    font-family:"Courier New";
+}
+
+
+.minus{
+
+    position:absolute;
+
+    width:30px;
+    height:30px;
+    top:10px;
+    left:390px;
+    border-radius:100px;
+    float:left;
+    background-color: red;
+    color:white;
+
+    font-size:20px;
+}
+.minusTitle{
+    font-color:white;
+}
+
+.plus{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:10px;
+    left:454px;
+    border-radius:100px;
+    float:right;
+    background-color: green;
+    color:white;
+
+    font-size:20px;
+}
+.buy{
+
+    position:absolute;
+    width:100px;
+    height:20px;
+    top:15px;
+    left:700px;
+
+}
+.x{
+    position:absolute;
+    font-family:"Courier New";
+    width:30px;
+    height:30px;
+    background-color: red;
+    color:white;
+    top:13px;
+    left:820px;
+}
+.row2{
+    position:relative;
+    width:893px;
+    height:50px;
+    float:left;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-style: ridge;
+
+}
+.title2{
+    padding:15px;
+    float:left;
+
+    font-family:"Courier New";
+
+}
+.minus2{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:10px;
+    left:390px;
+    border-radius:100px;
+    float:left;
+    background-color: red;
+    color:white;
+
+    font-size:20px;
+}
+
+.plus2{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:10px;
+    left:454px;
+    border-radius:100px;
+    float:right;
+    background-color: green;
+    color:white;
+
+    font-size:20px;
+}
+.numberTitle{
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    font-family:"Courier New";
+    top:15px;
+    left:425px;
+
+    text-align: center;
+    background-color: lightgrey;
+}
+.numberTitle2{
+    position:absolute;
+    background-color: lightgray;
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    top:15px;
+    text-align: center;
+    left:425px;
+    font-family:"Courier New";
+
+}
+
+.buy2{
+
+    position:absolute;
+    width:100px;
+    height:20px;
+    top:15px;
+    left:700px;
+
+}
+.x2{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:13px;
+    background-color: red;
+    color:white;
+    font-family:"Courier New";
+    left:820px;
+}
+.row3{
+    position:relative;
+    width:893px;
+    height:50px;
+    float:left;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-style: ridge;
+}
+.title3{
+    padding:15px;
+    float:left;
+    font-family:"Courier New";
+}
+.minus3{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:10px;
+    left:390px;
+    background-color: red;
+    border-radius:100px;
+    float:left;
+    color:white;
+
+    font-size:20px;
+
+}
+
+.plus3{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:10px;
+    left:454px;
+    background-color: green;
+    border-radius:100px;
+    float:right;
+    font-size:20px;
+    color:white;
+}
+.numberTitle3{
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    font-family:"Courier New";
+    top:15px;
+    text-align: center;
+
+    left:425px;
+    background-color: lightgray;
+}
+.buy3{
+
+    position:absolute;
+    width:100px;
+    height:20px;
+    top:15px;
+    left:700px;
+
+}
+.x3{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:13px;
+    left:820px;
+    background-color: red;
+    color:white;
+    font-family:"Courier New";
+}
+.buyTitle{
+    font-family:"Courier New";
+}
+.buyTitle2{
+    font-family:"Courier New";
+}
+.buyTitle3{
+    font-family:"Courier New";
+}
+.xTitle{
+    font-family:"Microsoft Sans Serif";
+}
+.xTitle2{
+    font-family:"Microsoft Sans Serif";
+}
+.xTitle3{
+    font-family:"Microsoft Sans Serif";
+}
+@media(max-width: 800px){
+    .b1-bought{
+        width: 70%;
+
+    }
+}
+
+
+.badge{
+    width: 100px;
+    height: 140px;
+    background-color: purple;
+    color: white;
+    padding-top:5px;
+    bottom: -120px;
+    left:30px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    background-size: cover;
+    text-align: center;
+    position:fixed;
+    transition: all 2s ease;
+}
+.badge:hover{
+    transform:translateY(-100px);
+    background-color: lightsteelblue;
+}
+
+.tooltip{
+    position:relative;
+    display:inline-block;
+    border-bottom:1px dotted black;
+}
+.tooltip .tooltiptext{
+    visibility:hidden;
+    width:120px;
+    background-color: #04a613;
+    color:#cdcbcb;
+
+    text-align: center;
+    padding : 5px 0 ;
+    border-radius:6px;
+    position:absolute;
+    z-index:1;
+}
+.tooltip:hover .tooltiptext{
+    visibility:visible;
+}
+button{
+    position:relative;
+}
+button::after{
+    content:attr(data-tooltip);
+    width:0px;
+    background-color: darkseagreen;
+    color:black;
+    position:absolute;
+    left:50%;
+    border-radius:5px;
+    visibility:hidden;
+    transition: all 2s ease;
+
+}
+
+
+button:hover::after{
+    width:55px;
+    font-size:15px;
+    margin-left: -25px;
+    visibility:visible;
+    transform:translateY(-30px);
 }
