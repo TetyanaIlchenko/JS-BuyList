@@ -9,18 +9,53 @@
 </head>
 <body>
 <div class="bl-background">
+    <div class="container">
+        <div class="left-container">
+            <div class="bl-list">
+                 <div class="product-input ">
+                     <div class = "union">
+                         <span>  <input class ="input" type="text"  placeholder="Назва товару"></span>
+                         <span> <button class = "add " data-tooltip = "Add ">  <div  class = " addTitle"  style="font-weight:bold"> Додати </div>  </button></span>
+                    </div>
+                 </div>
+
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="bl-bought">
+                <div class="left-products"><h3>Залишилося</h3></div>
+                <div class="left"></div>
+                <div class="bought-products"><h3>Куплено </h3></div>
+                <div class ="bought"></div>
 
 
-    <div class="bl-list">
-        <div class="product-input ">
-
-            <input class ="input" type="text"  placeholder="Назва товару">
-
-                 <form>
-                        <button class = "add " data-tooltip = "Add ">  <div  class = " addTitle"  style="font-weight:bold"> Додати </div>  </button>
-                     </form>
+            </div>
         </div>
     </div>
+</div>
+<div class="one-row-template " style="display: none" >
+<div class="row">
+    <div class="title-name" style="font-weight:bold" style="font-weight:bold"> Помідори </div>
+    <input class="new-name" type="text" autofocus>
+    <div class="buttons">
+        <button class="minus"data-tooltip = "Minus" style="font-weight:bold"> - </button>
+        <span class="numberTitle" style="font-weight:bold"> 1 </span>
+        <button class="plus" data-tooltip = "Plus" style="font-weight:bold"> + </button>
+    </div>
+    <div class="buy-delete">
+        <button class="buy"style="font-weight:bold" data-tooltip = "Buy"> Куплено </button>
+        <button class="unbuy " style="font-weight:bold" > Не куплено </button>
+        <button class="x"data-tooltip = "Delete" style="font-weight:bold"> X </button>
+    </div>
+</div>
+
+</div>
+<span class="product-template" style="display: none">
+        <span class="bought-product">
+                    <span class="title-product">Помідори</span>
+                    <span class="count">1</span>
+                </span>
+    </span>
         <!--<div class = "row2"> <div  class = " title2"  style="font-weight:bold"> Печиво</div>-->
             <!--<form> <button class = "minus2" data-tooltip = "Minus"> <span  class = " minusTitle2"  style="font-weight:bold"> - </span> </button>-->
             <!--</form>-->
@@ -51,57 +86,63 @@
 
 
 
-    <div class="bl-bought">
-        <div class="bl-title1"  style="font-weight:bold">Залишилося</div>
-        <div  class = "left">
-        <!--<span class = "product1">-->
-            <!--<span class = "tomato"  style="font-weight:bold"> Помідори  </span>-->
-            <!--<span class =number1 > 2 </span>-->
-        <!--</span>-->
-            <!--<span class = "product2">-->
-            <!--<span class = "cookies"  style="font-weight:bold"> Печиво  </span>-->
-                <!--<span class =number2 > 2 </span>-->
+    <!--<div class="bl-bought">-->
+        <!--<div class="bl-title1"  style="font-weight:bold">Залишилося</div>-->
+        <!--<div  class = "left">-->
+        <!--&lt;!&ndash;<span class = "product1">&ndash;&gt;-->
+            <!--&lt;!&ndash;<span class = "tomato"  style="font-weight:bold"> Помідори  </span>&ndash;&gt;-->
+            <!--&lt;!&ndash;<span class =number1 > 2 </span>&ndash;&gt;-->
+        <!--&lt;!&ndash;</span>&ndash;&gt;-->
+            <!--&lt;!&ndash;<span class = "product2">&ndash;&gt;-->
+            <!--&lt;!&ndash;<span class = "cookies"  style="font-weight:bold"> Печиво  </span>&ndash;&gt;-->
+                <!--&lt;!&ndash;<span class =number2 > 2 </span>&ndash;&gt;-->
+            <!--&lt;!&ndash;</span>&ndash;&gt;-->
+            <!--&lt;!&ndash;<span class = "product3">&ndash;&gt;-->
+            <!--&lt;!&ndash;<span class = "cheese"  style="font-weight:bold"> Сир  </span>&ndash;&gt;-->
+            <!--&lt;!&ndash;<span class =number3 > 2 </span></span>&ndash;&gt;-->
+        <!--</div>-->
+        <!--<div class="bl-title2"  style="font-weight:bold">Куплено</div>-->
+        <!--<div  class = "bought"> </div>-->
+    <!--</div>-->
+
+
+        <!--<div class = "row1">-->
+           <!--<span class="one-product">-->
+
+                    <!--<div  class = "title1"  style="font-weight:bold"></div>-->
+                    <!--<input class="change-name" placeholder="">-->
+
+           <!--</span>-->
+           <!--<span class="buttons">-->
+               <!--<button class = "minus" data-tooltip = "Minus"> <span  class = " minusTitle"  style="font-weight:bold" > - </span> </button>-->
+               <!--<span class = "numberTitle"  style="font-weight:bold">2</span>-->
+               <!--<button class = "plus" data-tooltip = "Plus"> <span  class = " plusTitle"  style="font-weight:bold"> + </span> </button>-->
+           <!--</span>-->
+            <!--&lt;!&ndash;<span class = "numberTitle2"  style="font-weight:bold"> 2 </span>&ndash;&gt;-->
+            <!--<span class = "buy-delete">-->
+                <!--<button class = "buy" data-tooltip = "Buy"> <span  class = " buyTitle"  style="font-weight:bold" > Купити </span> </button>-->
+                <!--<button class="bl-unbought" data-tooltip="Позначити некуплений продукт" >Не куплено</button>-->
+                <!--<button class = "x" data-tooltip = "Delete "> <span  class = " xTitle"  style="font-weight:bold"> Х </span> </button>-->
+
             <!--</span>-->
-            <!--<span class = "product3">-->
-            <!--<span class = "cheese"  style="font-weight:bold"> Сир  </span>-->
-            <!--<span class =number3 > 2 </span></span>-->
-        </div>
-        <div class="bl-title2"  style="font-weight:bold">Куплено</div>
-        <div  class = "bought"> </div>
-    </div>
-    </div>
-    <div class="one-row-template " style="display: none" >
-        <div class = "row1"> <div  class = " title1"  style="font-weight:bold"> Помідори</div>
-            <form> <button class = "minus" data-tooltip = "Minus"> <span  class = " minusTitle"  style="font-weight:bold" > - </span> </button>
-            </form>
-            <span class = "numberTitle"  style="font-weight:bold">2</span>
-            <form> <button class = "plus" data-tooltip = "Plus"> <span  class = " plusTitle"  style="font-weight:bold"> + </span> </button>
-            </form>
-            <span class = "numberTitle2"  style="font-weight:bold"> 2 </span>
-            <form> <button class = "buy" data-tooltip = "Buy"> <span  class = " buyTitle"  style="font-weight:bold" > Купити </span> </button>
-                <button class="bl-unbought" data-tooltip="Позначити некуплений продукт" >Не куплено</button>
-            </form>
-            <form> <button class = "x" data-tooltip = "Delete "> <span  class = " xTitle"  style="font-weight:bold"> Х </span> </button>
-            </form>
-
-        </div>
-    </div>
+        <!--</div>-->
 
 
-<div class="leftover-item-template" style="display: none">
-    <span class="statistics-panel">
-        <span class="product-name"></span>
-        <span class="count-label"></span>
-    </span>
-</div>
-<div class="bought-item-template" style="display: none">
-    <span class="statistics-panel">
-        <span class="product-name "></span>
-        <span class="count-label "></span>
-    </span>
-</div>
 
-<div class = "badge "> Created by:     Tetyana Ilchenko </div>
+<!--<div class="leftover-item-template" style="display: none">-->
+    <!--<span class="statistics-panel">-->
+        <!--<span class="product-name"></span>-->
+        <!--<span class="count-label"></span>-->
+    <!--</span>-->
+<!--</div>-->
+<!--<div class="bought-item-template" style="display: none">-->
+    <!--<span class="statistics-panel">-->
+        <!--<span class="product-name "></span>-->
+        <!--<span class="count-label "></span>-->
+    <!--</span>-->
+<!--</div> -->
+
+<div class = "badge "> Created by: Tetyana Ilchenko </div>
 
 <script	type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">	</script>
 <script	type="text/javascript" src="main.js">	</script>
